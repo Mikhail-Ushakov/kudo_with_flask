@@ -10,7 +10,7 @@
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/x-icon">
-
+    
 </head>
 <body>
     <nav class="navbar">
@@ -25,36 +25,67 @@
           <a href="{{ url_for('contacts') }}" class="link-page nav-link active">Контакты</a>
         </div>
     </nav>
-    <div class="section-1 vh-100">
+    <div class="section-1 ">
         <div class="bgimg-1">
 
         </div>
         <div class="welcome-speech">
-            <h1 class="welcome-speech-h1">Lorem ipsum dolor sit amet.</h1>
-            <p class="welcome-speech-p" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui odit eos, vero dolore aliquam doloribus totam commodi laborum vel non modi perspiciatis excepturi obcaecati magnam doloremque quasi ipsum, assumenda veniam?</p>
+            <h1 class="welcome-speech-h1" style="text-align: center;">Кудо - реальнее только жизнь</h1>
+            <p class="welcome-speech-p" style="text-align: center;">Набор в группу ребят в возрасте от 4 лет и старше, желающих стать настоящими бойцами.</p>
         </div>
         
     </div>
-    <div class="section-2 vh-100 ">
+    <div class="section-2">
         <div class="card container-space">
-            <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium harum, minima deserunt sed est totam ipsam optio iusto recusandae enim dignissimos commodi minus magni, aut, qui asperiores? Unde, sunt!.</p>
-            <img src="{{ url_for('static', filename='img_parallax2.jpg') }}" alt=""  height="100%">
+            <p>Почему я выбираю именно КУДО? Кудо - это современное полноконтактное боевое
+                искусство, объединяющее в себе все самое лучшее и эффективное, что есть в других видах
+                боевых искусств: <br>
+                - Удары руками - пришли из бокса;<br> 
+                - Ударная техника ногами - взята из карате;<br> 
+                - Удары коленями и локтями - из тайского бокса;<br>
+                - Броски и удушающие захваты - из самбо и дзюдо.
+                
+            </p>
+            <img src="{{ url_for('static', filename='img_parallax2.jpg') }}" alt=""  width="50%" height="100%">
         </div>
         <div class="card container-space">
-            <img src="{{ url_for('static', filename='img_parallax3.jpg') }}" alt="" height="100%">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique saepe, corporis quam dolor voluptas corrupti.</p>
+            <img src="{{ url_for('static', filename='img_parallax3.jpg') }}" alt="" width="50%" height="100%">
+            <p>КУДО является признанным видом спорта в РФ и других странах мира и является кандидатом на
+                включение в список Олимпийских видов спорта. КУДО могут заниматься как взрослые, так и
+                дети. Лучше всего приводить своих детей в секцию в возрасте 7-8 лет, когда ребёнок уже хорошо
+                понимает, что делать можно, а что нельзя, чтобы правильно применять полученные навыки. Но в
+                игровой форме можно заниматься и с 4-5 лет.</p>
             
         </div>
     </div>
 
-    <div class="section-2 vh-100 ">
+    <div class="section-2 ">
         <div class="card container-space">
-            <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium harum, minima deserunt sed est totam ipsam optio iusto recusandae enim dignissimos commodi minus magni, aut, qui asperiores? Unde, sunt!.</p>
-            <img src="{{ url_for('static', filename='img_parallax2.jpg') }}" alt=""  height="100%">
+            <p>Тренировки в данном виде спорта дают детям множество положительных качеств и умений: <br>
+                1. Укрепляется мышечный каркас, ребёнок учится быстро бегать и высоко прыгать, возрастает
+                выносливость. <br>
+                2. Улучшается координация. <br>
+                3. Возрастает внимательность и наблюдательность, способность концентрироваться. <br>
+                4. Приобретаются навыки самозащиты, что придает уверенности в себе и добавляет чувство
+                безопасности. <br>
+                5. Повышается стрессоустойчивость к жизненным трудностям, преодолеваются страхи. <br>
+                6. Ребята учатся дисциплине, самоконтролю, уважению к себе и другим, что способствует
+                выработке правильной модели поведения в обществе.</p>
+            <img src="{{ url_for('static', filename='img_parallax2.jpg') }}" alt=""  width="50%" height="100%">
         </div>
         <div class="card container-space">
-            <img src="{{ url_for('static', filename='img_parallax3.jpg') }}" alt="" height="100%">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique saepe, corporis quam dolor voluptas corrupti.</p>
+            <img src="{{ url_for('static', filename='img_parallax3.jpg') }}" alt="" width="50%" height="100%">
+            <p>Несмотря на то, что КУДО часто называют искусством реального боя и поединок в КУДО часто
+                похож на реальную уличную схватку, на самом деле все действия в поединке строго
+                регламентированы правилами, а уважение к партнеру, судье и тренеру здесь превыше всего.
+                Благодаря экипировке (в особенности шлему, который полностью закрывает голову и лицо) этот
+                вид единоборства не так травмоопасен, как другие.
+                Назначение КУДО - не только физическое, но и духовное воспитание бойцов, это - философия,
+                возможность саморазвития и совершенствования своих качеств и навыков. Ну, и как минимум,
+                умение постоять за себя.
+                Вот почему я выбираю КУДО и с радостью поделюсь своими знаниями и умениями в этом виде
+                спорта.
+                </p>
             
         </div>
     </div>
