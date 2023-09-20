@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Контакты</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/x-icon">
     <style>
-      html {
-        overflow: hidden;
-      }
-
       p {
         color: white;
         font-size: 1.5em;
@@ -38,12 +34,17 @@
         </div>
     </nav>
 
-    <div class="section-2 vh-100" >
-      <div class="card-contacts container-space">
-        <p>Адрес: г. Москва, Ленинский пр-кт, д. 64/2. Вход в спортзал со стороны парковки во дворе, 
-          рядом с детской площадкой, возле первого подъезда. <br>
-          Телефон: 8800 555 35 35 Имя <br>
-          Телефон: 8800 555 35 35 Имя
+    <div class="section-2" style="min-height: 100vh;">
+      <div class="card container-space" height="100vh">
+        <p>Тренировки проводятся в спортивном центре &quot;Космос&quot; Гагаринского района ЮЗАО
+          города Москвы. <br>
+          Телефон администрации спортивного центра &quot;Космос&quot;: +7(499)271-70-47
+          Эл. почта: mu-kosmos@yandex.ru <br>
+          Адрес: г. Москва, ЮЗАО, Гагаринский район, Ленинский проспект, д. 64/2
+          График работы администрации спортивного центра &quot;Космос&quot;:
+          Понедельник-пятница, с 10:00 до 19:00 <br>
+          Для записи на пробное занятие можно обратиться напрямую к тренеру по
+          телефону: +7(968)741-02-03 Новиков Александр
 
         </p>
         <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/mbu_sts_kosmos/1575255519/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">МБУ СЦ Космос</a><a href="https://yandex.ru/maps/213/moscow/category/sports_hall_gym/41430094175/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Спортивный, тренажёрный зал в Москве</a><a href="https://yandex.ru/maps/213/moscow/category/sports_club/184107297/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Спортивный клуб, секция в Москве</a><iframe src="https://yandex.ru/map-widget/v1/?l=trf%2Ctrfe&ll=37.551301%2C55.693566&mode=poi&poi%5Bpoint%5D=37.551325%2C55.693487&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1575255519&z=21" class="map" width="560" max-width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
